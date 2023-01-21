@@ -10,7 +10,8 @@ public class MyController {
 
     @GetMapping("/greeting")
     public String greeting() {
-        return "Hello, Spring Boot!";
+        String name = "Hello, Spring Boot!";
+        return name;
     }
 
 }
