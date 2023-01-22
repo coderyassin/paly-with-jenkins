@@ -22,7 +22,7 @@ public class MyController {
 
     @GetMapping("/greetingN")
     public String greetingN() {
-        String name = "Hello, Notification!";
+        String name = "Hello, Notification!!";
         return name;
     }
 
