@@ -9,8 +9,14 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyController {
 
     @GetMapping("/greeting")
-    public String greeting() {
-        String name = "Hello, Jenkins!!";
+    public String greetingS() {
+        String name = "Hello, Spring Boot!!";
+        return name;
+    }
+
+    @GetMapping("/greeting")
+    public String greetingJ() {
+        String name = "Hello, Jenkins!";
         return name;
     }
 
