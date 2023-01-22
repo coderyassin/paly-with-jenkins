@@ -16,7 +16,13 @@ public class MyController {
 
     @GetMapping("/greetingJ")
     public String greetingJ() {
-        String name = "Hello, Jenkins!!";
+        String name = "Hello, Jenkins!";
+        return name;
+    }
+
+    @GetMapping("/greetingN")
+    public String greetingN() {
+        String name = "Hello, Notification!";
         return name;
     }
 
