@@ -8,13 +8,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class MyController {
 
-    @GetMapping("/greeting")
+    @GetMapping("/greetingS")
     public String greetingS() {
         String name = "Hello, Spring Boot!!";
         return name;
     }
 
-    @GetMapping("/greeting")
+    @GetMapping("/greetingJ")
     public String greetingJ() {
         String name = "Hello, Jenkins!";
         return name;
